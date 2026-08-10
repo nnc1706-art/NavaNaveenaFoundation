@@ -1,0 +1,728 @@
+/*==================================
+CHARITABLE SERVICES PAGE
+==================================*/
+
+/*=========================
+GENERAL
+==========================*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Inter',sans-serif;
+    background:#fff;
+    color:#555;
+    line-height:1.8;
+}
+
+section{
+    padding:90px 0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+.section-tag{
+
+    display:inline-block;
+    color:#D62828;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+
+}
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:46px;
+    color:#17324D;
+    margin-bottom:18px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+    margin:auto;
+    color:#666;
+
+}
+
+/*=========================
+BUTTONS
+==========================*/
+
+.primary-btn{
+
+    display:inline-block;
+    background:#D62828;
+    color:#fff;
+    padding:15px 36px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+
+}
+
+.primary-btn:hover{
+
+    background:#B71C1C;
+    transform:translateY(-3px);
+
+}
+
+.secondary-btn{
+
+    display:inline-block;
+    border:2px solid #D62828;
+    color:#D62828;
+    padding:15px 36px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+
+}
+
+.secondary-btn:hover{
+
+    background:#D62828;
+    color:#fff;
+
+}
+
+/*=========================
+HERO
+==========================*/
+
+.hero{
+
+    background:linear-gradient(135deg,#FFF5F5,#FFFFFF);
+    padding:70px 0;
+    display: block;
+}
+
+.hero-container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+
+}
+
+.hero-image{
+
+    order:2;
+
+}
+
+.hero-content{
+
+    order:1;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:64px;
+    color:#17324D;
+    margin-bottom:25px;
+    line-height:1.1;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+    background:#FFE6E6;
+    color:#D62828;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:600;
+    margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+    font-size:18px;
+    color:#666;
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+    gap:18px;
+
+}
+
+.hero-image img{
+
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+/*=========================
+ABOUT
+==========================*/
+
+.about{
+
+    background:#fff;
+
+}
+
+.about-container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.about-content h2{
+
+    font-size:42px;
+    color:#17324D;
+    margin-bottom:20px;
+
+}
+
+.about-content p{
+
+    color:#666;
+    margin-bottom:20px;
+
+}
+
+.about-features{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin:35px 0;
+
+}
+
+.feature{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:600;
+
+}
+
+.feature i{
+
+    color:#D62828;
+    font-size:22px;
+
+}
+/*=========================
+OUR CHARITABLE SERVICES
+==========================*/
+
+.services{
+
+    background:#FFF8F8;
+
+}
+
+.services-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+
+}
+
+.service-card{
+
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.4s;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 25px 55px rgba(0,0,0,.15);
+
+}
+
+.service-card img{
+
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    transition:.4s;
+
+}
+
+.service-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.service-content{
+
+    padding:30px;
+
+}
+
+.service-content h3{
+
+    color:#17324D;
+    font-size:26px;
+    margin-bottom:15px;
+
+}
+
+.service-content p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*=========================
+HOW WE HELP
+==========================*/
+
+.how-help{
+
+    background:#ffffff;
+
+}
+
+.help-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    margin-top:50px;
+
+}
+
+.help-card{
+
+    background:#fff;
+    border-radius:20px;
+    padding:40px 25px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+
+}
+
+.help-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.process-icon{
+
+    width:90px;
+    height:90px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#FFECEC;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.35s;
+
+}
+
+.process-icon i{
+
+    font-size:38px;
+    color:#D62828;
+    transition:.35s;
+
+}
+
+.help-card:hover .process-icon{
+
+    background:#D62828;
+
+}
+
+.help-card:hover .process-icon i{
+
+    color:#fff;
+
+}
+
+.help-card h3{
+
+    color:#17324D;
+    font-size:24px;
+    margin-bottom:15px;
+
+}
+
+.help-card p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+/*=========================
+OUR IMPACT
+==========================*/
+
+.impact{
+
+    background:linear-gradient(135deg,#D62828,#E84A5F);
+    color:#fff;
+
+}
+
+.impact .section-tag,
+.impact .section-title h2,
+.impact .section-title p{
+
+    color:#fff;
+
+}
+
+.impact-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+
+}
+
+.impact-card{
+
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:40px 30px;
+    text-align:center;
+    transition:.35s;
+
+}
+
+.impact-card:hover{
+
+    background:#fff;
+    transform:translateY(-10px);
+
+}
+
+.impact-card i{
+
+    font-size:50px;
+    color:#fff;
+    margin-bottom:20px;
+    transition:.35s;
+
+}
+
+.impact-card h3{
+
+    font-size:26px;
+    margin-bottom:15px;
+
+}
+
+.impact-card p{
+
+    line-height:1.8;
+
+}
+
+.impact-card:hover i,
+.impact-card:hover h3,
+.impact-card:hover p{
+
+    color:#D62828;
+
+}
+
+/*=========================
+GALLERY
+==========================*/
+
+.gallery{
+
+    background:#fff;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+    cursor:pointer;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.05);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+/*=========================
+CALL TO ACTION
+==========================*/
+
+.cta{
+
+    padding:120px 0;
+    text-align:center;
+    color:#fff;
+
+    background:
+    linear-gradient(rgba(214,40,40,.85),
+    rgba(214,40,40,.85)),
+    url("../images/charity/cta.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.cta h2{
+
+    font-size:48px;
+    margin-bottom:20px;
+    color:#fff;
+
+}
+
+.cta p{
+
+    max-width:700px;
+    margin:0 auto 35px;
+    color:#fff;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+.cta .primary-btn{
+
+    background:#fff;
+    color:#D62828;
+
+}
+
+.cta .primary-btn:hover{
+
+    background:#FFECEC;
+
+}
+
+/*=========================
+FOOTER
+==========================*/
+
+.footer{
+
+    background:#17324D;
+    color:#fff;
+    text-align:center;
+    padding:30px 0;
+
+}
+
+.footer p{
+
+    margin:0;
+
+}
+
+/*=========================
+RESPONSIVE
+==========================*/
+
+@media(max-width:992px){
+
+.hero-container,
+.about-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-image img,
+.about-image img{
+
+    height:400px;
+
+}
+
+.services-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.help-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.impact-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-content h1{
+
+    font-size:50px;
+
+}
+
+.section-title h2{
+
+    font-size:38px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+    padding:70px 0;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.hero-content h1{
+
+    font-size:40px;
+
+}
+
+.about-features{
+
+    grid-template-columns:1fr;
+
+}
+
+.help-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-image img,
+.about-image img{
+
+    height:280px;
+
+}
+
+.service-card img{
+
+    height:220px;
+
+}
+
+.cta h2{
+
+    font-size:34px;
+
+}
+
+}

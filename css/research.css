@@ -1,0 +1,776 @@
+/*==================================
+CME PROGRAMS PAGE
+==================================*/
+
+/*=========================
+GENERAL
+==========================*/
+
+body{
+    margin:0;
+    padding-top:100px;
+    font-family:'Inter',sans-serif;
+    color:#555;
+    background:#fff;
+    line-height:1.8;
+}
+
+section{
+    padding:90px 0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+.section-tag{
+    display:inline-block;
+    color:#0F4C81;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:46px;
+    color:#17324D;
+    margin-bottom:18px;
+}
+
+.section-title p{
+    max-width:700px;
+    margin:auto;
+    color:#666;
+    font-size:17px;
+}
+
+/*=========================
+BUTTONS
+==========================*/
+
+.primary-btn{
+
+    display:inline-block;
+    background:#0F4C81;
+    color:#fff;
+    padding:15px 36px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+
+}
+
+.primary-btn:hover{
+
+    background:#08365f;
+    transform:translateY(-3px);
+
+}
+
+.secondary-btn{
+
+    display:inline-block;
+    border:2px solid #0F4C81;
+    color:#0F4C81;
+    padding:14px 36px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+
+}
+
+.secondary-btn:hover{
+
+    background:#0F4C81;
+    color:white;
+
+}
+
+/*=========================
+HERO
+==========================*/
+
+.hero{
+
+    background:linear-gradient(135deg,#EEF6FF,#FFFFFF);
+    padding:70px 0;
+    display: block;
+
+}
+
+.hero-container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+
+}
+
+.hero-image{
+
+    order:2;
+
+}
+
+.hero-content{
+
+    order:1;
+
+}
+
+.hero-image img{
+
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+    background:#EAF4FF;
+    color:#0F4C81;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:600;
+    margin-bottom:20px;
+
+}
+
+.hero-content h1{
+
+    font-size:64px;
+    color:#17324D;
+    line-height:1.1;
+    margin-bottom:25px;
+
+}
+
+.hero-content p{
+
+    font-size:18px;
+    color:#666;
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+    gap:18px;
+
+}
+
+/*=========================
+ABOUT
+==========================*/
+
+.about{
+
+    background:#fff;
+
+}
+
+.about-container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.about-content h2{
+
+    font-size:42px;
+    color:#17324D;
+    margin-bottom:20px;
+
+}
+
+.about-content p{
+
+    margin-bottom:20px;
+    color:#666;
+
+}
+
+.about-features{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin:35px 0;
+
+}
+
+.feature{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:600;
+
+}
+
+.feature i{
+
+    color:#0F4C81;
+    font-size:22px;
+
+}
+/*=========================
+OUR SERVICES
+==========================*/
+
+.services{
+
+    background:#F7FAFD;
+
+}
+
+.services-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+
+}
+
+.service-card{
+
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.4s;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 25px 55px rgba(0,0,0,.15);
+
+}
+
+.service-card img{
+
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    transition:.5s;
+
+}
+
+.service-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.service-content{
+
+    padding:30px;
+
+}
+
+.service-content h3{
+
+    color:#17324D;
+    font-size:26px;
+    margin-bottom:15px;
+
+}
+
+.service-content p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*=========================
+WHY CHOOSE CME
+==========================*/
+
+.why-medical{
+
+    background:#fff;
+
+}
+
+.why-container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+
+}
+
+.why-image img{
+
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.why-content h2{
+
+    font-size:42px;
+    color:#17324D;
+    margin-bottom:25px;
+
+}
+
+.why-content p{
+
+    color:#666;
+    margin-bottom:20px;
+    line-height:1.8;
+
+}
+
+.why-list{
+
+    margin-top:30px;
+
+}
+
+.why-item{
+
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    margin-bottom:20px;
+    font-weight:600;
+    color:#17324D;
+
+}
+
+.why-item i{
+
+    color:#0F4C81;
+    font-size:20px;
+    margin-top:3px;
+
+}
+/*=========================
+LEARNING PROCESS
+==========================*/
+
+.how-help{
+
+    background:#F8FBFF;
+
+}
+
+.help-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    margin-top:60px;
+
+}
+
+.help-card{
+
+    background:#fff;
+    padding:40px 25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+    position:relative;
+
+}
+
+.help-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.process-icon{
+
+    width:90px;
+    height:90px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#EAF4FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.35s;
+
+}
+
+.process-icon i{
+
+    font-size:38px;
+    color:#0F4C81;
+    transition:.35s;
+
+}
+
+.help-card:hover .process-icon{
+
+    background:#0F4C81;
+
+}
+
+.help-card:hover .process-icon i{
+
+    color:#fff;
+
+}
+
+.help-card h3{
+
+    color:#17324D;
+    font-size:24px;
+    margin-bottom:15px;
+
+}
+
+.help-card p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*=========================
+IMPACT
+==========================*/
+
+.impact{
+
+    background:#1c60a5;
+
+}
+
+.impact-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+
+}
+
+.impact-card{
+
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+
+}
+
+.impact-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.impact-card i{
+
+    font-size:52px;
+    color:#0F4C81;
+    margin-bottom:25px;
+
+}
+
+.impact-card h3{
+
+    color:#17324D;
+    margin-bottom:15px;
+    font-size:26px;
+
+}
+
+.impact-card p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+/*=========================
+GALLERY
+==========================*/
+
+.gallery{
+
+    background:#ffffff;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+    cursor:pointer;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.05);
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+}
+
+/*=========================
+CALL TO ACTION
+==========================*/
+
+.cta{
+
+    padding:120px 0;
+    text-align:center;
+    color:#fff;
+
+    background:
+    linear-gradient(rgba(15,76,129,.85),
+    rgba(15,76,129,.85)),
+    url("../images/cme/cta.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.cta h2{
+
+    font-size:48px;
+    margin-bottom:20px;
+    color:#fff;
+
+}
+
+.cta p{
+
+    max-width:700px;
+    margin:0 auto 35px;
+    color:#fff;
+    font-size:18px;
+
+}
+
+.cta .primary-btn{
+
+    background:#fff;
+    color:#0F4C81;
+
+}
+
+.cta .primary-btn:hover{
+
+    background:#EAF4FF;
+
+}
+
+/*=========================
+FOOTER
+==========================*/
+
+.footer{
+
+    background:#17324D;
+    color:#fff;
+    text-align:center;
+    padding:30px 0;
+
+}
+
+.footer p{
+
+    margin:0;
+
+}
+
+/*=========================
+RESPONSIVE
+==========================*/
+
+@media(max-width:992px){
+
+.hero-container,
+.about-container,
+.why-container{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-image img,
+.about-image img,
+.why-image img{
+
+height:400px;
+
+}
+
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.help-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.impact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.hero-content{
+
+text-align:center;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.hero-content h1{
+
+font-size:50px;
+
+}
+
+.section-title h2{
+
+font-size:38px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+padding:70px 0;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.hero-content h1{
+
+font-size:40px;
+
+}
+
+.about-features{
+
+grid-template-columns:1fr;
+
+}
+
+.help-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-image img,
+.about-image img,
+.why-image img{
+
+height:280px;
+
+}
+
+.service-card img{
+
+height:220px;
+
+}
+
+.cta h2{
+
+font-size:34px;
+
+}
+
+}
